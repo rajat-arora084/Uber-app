@@ -1,0 +1,37 @@
+.navbar-main {
+  height: 10%;
+}
+
+.navbar-main .dropdown-toggle {
+  color: #fff !important;
+}
+
+.navbar-main .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar-main .greet-user {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.navbar-main .navbar-nav .dropdown-menu {
+  background-color: rgb(238, 238, 238);
+  border-radius: 0px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  top: 160% !important;
+  left: -100px !important;
+}
+
+.navbar-main .navbar-nav .dropdown-menu img {
+  margin-right: 5px;
+}
+
+.navbar-main .navbar-nav .dropdown-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+}
