@@ -27,10 +27,10 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav>
-              <Nav.Link href="#home" className="active">
+              <Nav.Link href="#ride" className="active">
                 Ride
               </Nav.Link>
-              <Nav.Link href="#link" className="active">
+              <Nav.Link href="#drive" className="active">
                 Drive
               </Nav.Link>
               <Nav.Link href="#more" className="active">
@@ -38,7 +38,7 @@ const NavBar = () => {
               </Nav.Link>
             </Nav>
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className="active">
+              <Nav.Link href="#help" className="active">
                 Help
               </Nav.Link>
 
@@ -46,23 +46,23 @@ const NavBar = () => {
                 <NavDropdown.Item className="greet-user">
                   Hey, Rajat
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item href="#user/trips">
                   <img src={TripsImg} height="10" width="10" alt="" />
                   My trips
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="#user/wallet">
                   <img src={WalletImg} height="10" width="10" alt="" />
                   Wallet
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="#user/promos">
                   <img src={PromoImg} height="10" width="10" alt="" />
                   Promos
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="#user/support">
                   <img src={supportMessageImg} height="15" width="10" alt="" />
                   Support Messages
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="#user/settings">
                   <img src={UserSettingsImg} height="15" width="10" alt="" />
                   Profile Settings
                 </NavDropdown.Item>
