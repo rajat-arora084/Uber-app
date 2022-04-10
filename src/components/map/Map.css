@@ -1,0 +1,32 @@
+.map-container {
+  height: calc(100vh - 10px);
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  margin-top: 5rem !important;
+  border-radius: 4px;
+}
+
+.zoom-controls {
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+  background-color: rgba(35, 55, 75, 0.9);
+}
+
+.zoom-controls button {
+  background-color: rgba(35, 55, 75, 0.9);
+  border: rgba(35, 55, 75, 0.9);
+  border-bottom-color: #fff;
+
+  color: #fff;
+}
